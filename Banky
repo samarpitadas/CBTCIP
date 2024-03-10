@@ -44,7 +44,7 @@ class Account {
 
 public class BankSystem {
     private static ArrayList<Account> accounts = new ArrayList<>();
-    private static int nextAccountId = 1;
+    private static int nextAccountId = 2001;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
